@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="css/web.css" rel="stylesheet">
+    <link href="css/contactus.css" rel="stylesheet">
+    <link href="font-6.4/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="Home.html"><img src="DefaultImages/GRLOGO_TRANSPARENT_WHITE.png" class="logo" alt="GRLOGO"></a>
+        <a href="Home.html" class="title">Home</a>
+        <div class="dropdown">
+            <button onclick="window.location.href='AllBrands.html';" class="dropbtn">Brands
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="AppleProduct.html">Apple</a>
+                <a href="RazerProduct.html">Razer</a>
+                <a href="ROGProduct.html">ROG</a>
+                <a href="LogitechProduct.html">Logitech G</a>
+            </div>
+        </div>
+        <a href="OurLocation.html" class="title">Location</a>
+        <a href="Accesories.html" class="title">Accesories</a>
+        <div class="dropdown">
+            <button class="dropbtn">Support
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="contact.html">Contact Us</a>
+                <a href="TermsandConditions.html">Terms & Conditions</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+        </div>
+        <a href="aboutus.html" class="title">About Us</a>
+      </div>
+    <div class="container">
+        <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">
+              Send us your concern or question by submitting the form to us.
+            </p>
+  
+            <div class="info">
+              <div class="information">
+                <img src="img/location.png" class="icon" alt="location" />
+                <p>Kampus Utama, Jalan Genting Kelang, 53300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+              </div>
+              <div class="information">
+                <img src="img/email.png" class="icon" alt="mail" />
+                <a href="mailto:GrandIT.gmail.com"><p>GrandIT.gmail.com</p></a>
+              </div>
+              <div class="information">
+                <img src="img/phone.png" class="icon" alt="phone"/>
+                <a href="tel:+60#########"><p>(+60)12-34567890</p></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="contact-form">
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" id="name" required/>
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" id="mail" required/>
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" id="phone" required/>
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input" id="message" required></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+        <div class="chatbox">
+          <a href="https://console.dialogflow.com/api-client/demo/embedded/f0808553-9d79-4769-9706-e1fb56c81af4">
+          <img src="img/chatbox.png" alt="chatbox"/></a>
+        </div>
+      </div>
+  
+      <script src="js/app.js"></script>
+
+    <footer>
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="aboutus.html">about us</a></li>
+                    <li><a href="TermsandConditions.html">Terms & Conditions</a></li>
+                    <li><a href="support.html">our services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>stores</h4>
+                <ul>
+                    <li><a href="AppleProduct.html">Apple</a></li>
+                    <li><a href="RazerProduct.html">Razer</a></li>
+                    <li><a href="ROGProduct.html">ROG</a></li>
+                    <li><a href="LogitechProduct.html">Logitech G</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

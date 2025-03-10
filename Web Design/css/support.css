@@ -1,0 +1,48 @@
+.sup{
+    width:100%;
+    height: 350px;
+    padding-left: 280px;
+    padding-top: 100px;
+    background-color: black;
+    padding-right: 5px;
+}
+
+.suppbut{
+	position: relative;
+    width: 250px;
+    height: 95px;
+    float:left;
+    margin-right: 100px;
+}
+.buttonoverlapmulti{
+	position: absolute;
+    z-index: 2;
+    top: 58px;
+    display: none;
+    width: 150px;
+}
+.suppbut:hover .buttonoverlapmulti{ 
+	display:block;
+    opacity: 1;
+}
+.inputimg img:hover{
+    opacity: 0.3;
+}
+.inputimg img{
+    height:120px;
+    width: 150px;
+    
+}
+
+h1{
+    color: rgb(35, 205, 35);
+    text-align: center;
+    width:150px;   
+}
+
+button{
+    background-color: black;
+    color: white;
+    opacity: 0;
+    transition: opacity .35s ease;
+}

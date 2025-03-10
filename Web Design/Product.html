@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product</title>
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <link href="css/style2.css" rel="stylesheet">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="#"><img src="GRLOGO_TRANSPARENT_WHITE.png" class="logo" alt="GRLOGO"></a>
+            <a href="home.html" class="title">Home</a>
+            <a href="#news" class="title">News</a>
+            <div class="dropdown">
+                <button class="dropbtn">Brands
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="apple.html">Apple</a>
+                    <a href="razer.html">Razer</a>
+                    <a href="rog.html">ROG</a>
+                    <a href="logi_g.html">Logitech G</a>
+                </div>
+            </div>
+            <a href="#" class="title">Location</a>
+            <a href="#" class="title">Accesories</a>
+            <div class="dropdown">
+                <button class="dropbtn">Support
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="contact.html">Contact Us</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+            <a href="#" class="title">About Us</a>
+        </div>
+            <a href="https://www.youtube.com/"><img src="searchicon.png" alt="search icon" class="icons"></a>
+        </div>
+        <div class = "banner">
+            <h1>Our Products</h1>
+        </div>
+    <div class="line">
+
+    </div>
+    <div class="slider_container">
+        <!-- image slider start -->
+        <div class="slider">
+            <div class="slides">
+                <!-- radio buttons start -->
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- radio buttons end -->
+                <!-- slide images start -->
+                <div class="slide first">
+                    <img src="Razerstore.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Msistore.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="LogitechGstore.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="cat.jpg" alt="">
+                </div>
+                <!-- slide images end -->
+                <!-- automatic navigation start -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!-- automatic navigation end -->
+            </div>
+            <!-- manual navigation start -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- manual navigation end -->
+        </div>
+        <!-- image slider end -->
+        <script type="text/javascript">
+            var counter = 2;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 4){
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
+    </div>
+    <div class="line">
+
+    </div>
+    <div class="main_option_container">
+        <div class="option_container">
+            <h2>Latest Product/Series</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla velit harum ducimus corrupti quia accusamus magni delectus quis iusto numquam nobis at officiis, animi consequatur tempore eum voluptatem. Aperiam, ad.</p>
+            <div class="filter_container">
+                <div class="category_head">
+                    <ul>
+                        <div class="category_title active" id = "all">
+                            <li>All</li>
+                            <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                        </div>
+                        <div class="category_title" id = "msi">
+                            <li>iPhone</li>
+                            <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                        </div>
+                        <div class="category_title" id = "razer">
+                            <li>iPad</li>
+                            <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                        </div>
+                        <div class="category_title" id = "logi">
+                            <li>MacBook</li>
+                            <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                        </div>
+                        <div class="category_title" id = "cat">
+                            <li>Watch</li>
+                            <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                        </div>
+                        <div class="category_title" id = "business">
+                            <li>AirPods</li>
+                            <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="posts_collect">
+                    <div class="posts_main_container">
+                        <!-- single post -->
+                        <div class="all msi">
+                            <div class="post_img">
+                                <img src="Msistore.jpg" alt="post">
+                                <span class="category_name">msi</span>
+                            </div>
+                            <div class="post_content">
+                                <div class="post_content_top">
+                                    <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                                    <span>January 01,2XXX</span>
+                                    <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                                    <span>34</span>
+                                </div>
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe accusamus, error id quas illo itaque beatae rem ipsam, commodi dolorum, quis totam similique quaerat sapiente asperiores eveniet veritatis vero.</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis porro deserunt est? Architecto nam dolorem facere itaque facilis rerum incidunt ipsum quas doloremque dignissimos blanditiis, maxime consectetur tempora vitae iusto.</p>
+                            </div>
+                            <button type="button" class="read_btn">Read All</button>
+                        </div>
+                        <!-- end of single pos -->
+                        <!-- single post -->
+                        <div class="all razer">
+                            <div class="post_img">
+                                <img src="Razerstore.jpg" alt="post">
+                                <span class="category_name">razer</span>
+                            </div>
+                            <div class="post_content">
+                                <div class="post_content_top">
+                                    <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                                    <span>January 01,2XXX</span>
+                                    <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                                    <span>34</span>
+                                </div>
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe accusamus, error id quas illo itaque beatae rem ipsam, commodi dolorum, quis totam similique quaerat sapiente asperiores eveniet veritatis vero.</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis porro deserunt est? Architecto nam dolorem facere itaque facilis rerum incidunt ipsum quas doloremque dignissimos blanditiis, maxime consectetur tempora vitae iusto.</p>
+                            </div>
+                            <button type="button" class="read_btn">Read All</button>
+                        </div>
+                        <!-- end of single pos -->
+                        <!-- single post -->
+                        <div class="all logi">
+                            <div class="post_img">
+                                <img src="LogitechGstore.jpg" alt="post">
+                                <span class="category_name">logi</span>
+                            </div>
+                            <div class="post_content">
+                                <div class="post_content_top">
+                                    <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                                    <span>January 01,2XXX</span>
+                                    <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                                    <span>34</span>
+                                </div>
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe accusamus, error id quas illo itaque beatae rem ipsam, commodi dolorum, quis totam similique quaerat sapiente asperiores eveniet veritatis vero.</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis porro deserunt est? Architecto nam dolorem facere itaque facilis rerum incidunt ipsum quas doloremque dignissimos blanditiis, maxime consectetur tempora vitae iusto.</p>
+                            </div>
+                            <button type="button" class="read_btn">Read All</button>
+                        </div>
+                        <!-- end of single pos -->
+                        <!-- single post -->
+                        <div class="all cat">
+                            <div class="post_img">
+                                <img src="cat.jpg" alt="post">
+                                <span class="category_name">cat</span>
+                            </div>
+                            <div class="post_content">
+                                <div class="post_content_top">
+                                    <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                                    <span>January 01,2XXX</span>
+                                    <img src="GRLOGO_TRANSPARENT_WHITE.png">
+                                    <span>34</span>
+                                </div>
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe accusamus, error id quas illo itaque beatae rem ipsam, commodi dolorum, quis totam similique quaerat sapiente asperiores eveniet veritatis vero.</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis porro deserunt est? Architecto nam dolorem facere itaque facilis rerum incidunt ipsum quas doloremque dignissimos blanditiis, maxime consectetur tempora vitae iusto.</p>
+                            </div>
+                            <button type="button" class="read_btn">Read All</button>
+                        </div>
+                        <!-- end of single pos -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line">
+
+    </div>
+    <footer>
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">our services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>stores</h4>
+                <ul>
+                    <li><a href="apple.html">Apple</a></li>
+                    <li><a href="razer.html">Razer</a></li>
+                    <li><a href="rog.html">ROG</a></li>
+                    <li><a href="logi_g.html">Logitech G</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </body>
+    
+</html>

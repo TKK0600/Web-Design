@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grand IT</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="font-6.4/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <a href="Home.html"><img src="DefaultImages/GRLOGO_TRANSPARENT_WHITE.png" class="logo" alt="GRLOGO"></a>
+        <a href="Home.html" class="title">Home</a>
+        <div class="dropdown">
+            <button onclick="window.location.href='AllBrands.html';" class="dropbtn">Brands
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="AppleProduct.html">Apple</a>
+                <a href="RazerProduct.html">Razer</a>
+                <a href="ROGProduct.html">ROG</a>
+                <a href="LogitechProduct.html">Logitech G</a>
+            </div>
+        </div>
+        <a href="OurLocation.html" class="title">Location</a>
+        <a href="Accesories.html" class="title">Accesories</a>
+        <div class="dropdown">
+            <button class="dropbtn">Support
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="contact.html">Contact Us</a>
+                <a href="TermsandConditions.html">Terms & Conditions</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+        </div>
+        <a href="aboutus.html" class="title">About Us</a>
+    </div>
+   <!-- LOGIN FORM CREATION -->
+   <div class="background"></div>
+   <div class="container">
+       <div class="item">
+           <h2 class="logo"><img class="logo-img"src="DefaultImages/GRLOGO_TRANSPARENT_WHITE.png"/>Grand IT</h2>
+           <div class="text-item">
+               <h2>Welcome! <br><span>
+                   To Our Store
+               </span></h2>
+               <p>We serve the best</p>
+           </div>
+       </div>
+       <div class="login-section">
+           <div class="form-box login">
+               <form action="">
+                   <h2>Sign In</h2>
+                   <div class="input-box">
+                       <input type="email" id="mail" required>
+                       <label>Email</label>
+                   </div>
+                   <div class="input-box">
+                       <input type="password" id="psw"required>
+                       <label>Password</label>
+                   </div>
+                   <div class="remember-password">
+                       <label for=""><input type="checkbox">Remember Me</label>
+                       <a href="forgot.html">Forget Password</a>
+                   </div>
+                   <button class="btn" onclick="loginfunction()">Login In</button>
+                   <div class="create-account">
+                       <p>Create A New Account? <a href="#" class="register-link">Sign Up</a></p>
+                   </div>
+               </form>
+           </div>
+<!--------------Register---------------->
+           <div class="form-box register">
+               <form action="">
+
+                   <h2>Sign Up</h2>
+
+                   <div class="input-box">
+                       <input type="text" id="username" required>
+                       <label >Username</label>
+                   </div>
+                   <div class="input-box">
+                       <input type="email" id="mailreg"required>
+                       <label>Email</label>
+                   </div>
+                   <div class="input-box">
+                       <input type="password" id="pswreg"required>
+                       <label>Password</label>
+                   </div>
+                   <div class="remember-password">
+                       <label for=""><input type="checkbox">I agree with this statment</label>
+                   </div>
+                   <button class="btn" onclick="registerfunction()">Sign Up</button>
+                   <div class="create-account">
+                       <p>Already Have An Account? <a href="#" class="login-link">Sign In</a></p>
+                   </div>
+               </form>
+           </div>
+       </div>
+   </div>
+
+    <script src="js/login.js"></script>
+    <footer>
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="aboutus.html">about us</a></li>
+                    <li><a href="TermsandConditions.html">Terms & Conditions</a></li>
+                    <li><a href="support.html">our services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>stores</h4>
+                <ul>
+                    <li><a href="AppleProduct.html">Apple</a></li>
+                    <li><a href="RazerProduct.html">Razer</a></li>
+                    <li><a href="ROGProduct.html">ROG</a></li>
+                    <li><a href="LogitechProduct.html">Logitech G</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
